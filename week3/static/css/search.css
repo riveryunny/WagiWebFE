@@ -1,0 +1,67 @@
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+.headerleft{
+    flex:1;
+}
+
+.headermiddle{
+    width:830px;
+}
+
+.headerright{
+    flex: 1;
+}
+
+.logoimg {
+    float: right;
+    margin-top: 85px;
+}
+
+.search {
+    display: flex;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    width: 450px;
+    height: 38px;
+    margin-top: 121px;
+    margin-left: 30px;
+    padding-left: 15px; 
+}
+
+.headerline {
+    margin-top: 15px;
+}
+
+.searchcontainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.leftcontainer {
+    flex: 1;
+}
+
+.navigationbar a{
+    text-decoration: none;
+    color:#000000;
+    font-size: 18px;
+    float: right;
+    margin: 40px 40px;
+}
+
+.maincontainer {
+    border: 1px solid #000000;
+    border-top: none;
+    width: 830px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightcontainer{
+    flex: 1;
+}
