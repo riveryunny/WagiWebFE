@@ -1,0 +1,66 @@
+header{
+    display:flex;
+    flex-direction:row;
+}
+
+.headleft{
+    flex:1;
+}
+
+.headmiddle{
+    width:830px;
+}
+
+.headright{
+    flex:1;
+}
+
+.logo{
+    float:right;
+    margin-top:85px;
+}
+
+.searchbox{
+    display:flex;
+    border:1px solid black;
+    border-radius:20px;
+    width:450px;
+    height:38px;
+    margin-top:121px;
+    margin-left:30px;
+    padding-left:15px;
+}
+
+.headerline{
+    margin-top:15px;
+}
+
+section{
+    display:flex;
+    flex-direction:row;
+}
+
+.bodyleft{
+    flex:1;
+}
+
+.search a{
+    text-decoration:none;
+    color:black;
+    font-size:18px;
+    float:right;
+    margin:40px 40px;
+}
+
+.bodymiddle{
+    border:1px solid black;
+    border-top:none;
+    width:830px;
+    height:800px;
+    justify-content:center;   /*가로 정렬*/
+    align-items:center;       /*세로 정렬*/
+}
+
+.bodyright{
+    flex:1;
+}
